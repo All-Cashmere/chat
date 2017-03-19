@@ -1,0 +1,73 @@
+#users {
+    list-style-type: none; margin: 0; padding: 0;
+    position: relative;
+    height: 530px; /* Or whatever you want (eg. 400px) */
+    width: 30%;
+
+    float: left;
+}
+#users li {
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+
+    background-color: #282f32;
+    color: white;
+    margin: 5px;
+}
+#users li:hover {
+    background-color: #88A1A4;
+    cursor: pointer;
+}
+
+#messages {
+    list-style-type: none; margin: 0; padding: 0;
+    position: relative;
+    height: 530px;
+    width: 70%;
+
+    float: left;
+}
+#messages li {
+
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+
+    background-color: #282f32;
+    color: white;
+    margin: 5px;
+}
+
+#messages li:nth-child(odd) {
+//background: #eee;
+    background: #b1bbc1;
+    color: #282f32;
+
+}
+
+
+#headerOfMessages {
+    /*list-style-type: none; margin: 0; padding: 0;*/
+    position: absolute;
+    height: 20%;
+    width: 10%;
+
+    //float: left;
+    left: 100%;
+    top: 0%;
+
+
+
+
+    text-align: center;
+    padding: 20px 15px 20px 15px;
+
+    border-radius: 5px;
+
+    background-color: #282f32;
+    color: white;
+    /*margin: 5px;*/
+
+    display: none;
+}

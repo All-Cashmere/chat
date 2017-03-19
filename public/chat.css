@@ -1,0 +1,22 @@
+#messages {
+    list-style-type: none; margin: 0; padding: 0;
+//background-color: black;
+}
+ul {
+    position: relative;
+    height: 530px; /* Or whatever you want (eg. 400px) */
+}
+#messages li {
+    padding: 10px 10px;
+    border-radius: 5px;
+//color: #282f32;
+    background-color: #282f32;
+    color: white;
+    margin: 5px;
+}
+#messages li:nth-child(odd) {
+//background: #eee;
+    background: #b1bbc1;
+    color: #282f32;
+
+}
