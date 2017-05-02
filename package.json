@@ -5,6 +5,9 @@
   "sripts": {
   	"start": "node server.js"
   },
+  "engines": {
+    "node": "7.4.0"
+  },
   "dependencies": {
     "ejs-locals": "^1.0.2",
     "express": "^4.10.2",
