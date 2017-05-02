@@ -10,3 +10,7 @@ to start:
 	- npm start
 
 </pre>
+
+
+
+demo: https://chatfromverkhohliad.herokuapp.com/
