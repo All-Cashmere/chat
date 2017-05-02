@@ -9,10 +9,18 @@ var MongoClient = require('mongodb').MongoClient,
 
 //var connectedUsers = [];
 var DB, /*SOCKET,*/ dialog;
+/*
 MongoClient.connect('mongodb://127.0.0.1:27017/chat2', function (err, db) {
+    console.log('!');
     assert.equal(err, null);
 
     DB = db;
+});*/
+MongoClient.connect('mongodb://ihorek7777:9653487120i@ds137370.mlab.com:37370/chat', function (err, db) {
+  assert.equal(err, null);
+
+  DB = db;
+  console.log(db);
 });
 
 
@@ -138,6 +146,9 @@ io.sockets.on('connection', function (socket) {
 
 
         });
+
+        
+        //io.to(socket.handshake.headers.rooms[0]).emit('notification', )
 
         //console.log(socket.handshake.headers.rooms[0], socket.handshake.headers.rooms[1]);
         debugger;
