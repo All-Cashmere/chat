@@ -1,3 +1,9 @@
+
+
+body {
+    height: 100%;
+}
+
 #users {
     list-style-type: none; margin: 0; padding: 0;
     position: relative;
@@ -23,7 +29,7 @@
 #messages {
     list-style-type: none; margin: 0; padding: 0;
     position: relative;
-    height: 530px;
+    height: 75%;
     width: 70%;
 
     float: left;

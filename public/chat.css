@@ -1,13 +1,3 @@
-@media screen and (min-height: 600px) {
-    ul {
-        height: 530px;
-    }
-}
-@media screen and (max-height: 600px) {
-    ul {
-        height: 400px;
-    }
-}
 
 body {
     height: 100%;
