@@ -1,10 +1,25 @@
+@media screen and (min-height: 600px) {
+    ul {
+        height: 530px;
+    }
+}
+@media screen and (max-height: 600px) {
+    ul {
+        height: 400px;
+    }
+}
+
+body {
+    height: 100%;
+}
+
 #messages {
     list-style-type: none; margin: 0; padding: 0;
 //background-color: black;
 }
 ul {
     position: relative;
-    height: 530px; /* Or whatever you want (eg. 400px) */
+    height: 75%; /* Or whatever you want (eg. 400px) */
 }
 #messages li {
     padding: 10px 10px;
