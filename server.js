@@ -18,7 +18,7 @@ MongoClient.connect('mongodb://127.0.0.1:27017/chat2', function (err, db) {
 
     DB = db;
 });*/
-MongoClient.connect('mongodb://ihorek7777:9653487120i@ds137370.mlab.com:37370/chat', function (err, db) {
+MongoClient.connect('mongodb://login:password@ds137370.mlab.com:37370/chat', function (err, db) {
   assert.equal(err, null);
 
   DB = db;
